@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Intro component with sign up form</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@400;500;600;700&family=Young+Serif&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <section class="container">
+    <div class="left">
+      <h1>
+        Learn to code by watching others
+      </h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="right">
+      <p class="try-it">
+        Try it free 7 days <span>then $20/mo. thereafter</span>
+      </p>
+      <form id="signup-form">
+        <div class="input-container">
+          <input type="text" id="first-name" placeholder="First Name">
+          <p class="error-message" id="first-name-error"></p>
+        </div>
+        <div class="input-container">
+          <input type="text" id="last-name" placeholder="Last Name">
+          <p class="error-message" id="last-name-error" ></p>
+        </div>
+        <div class="input-container">
+          <input type="email" id="email" placeholder="Email Address">
+          <p class="error-message" id="email-error" ></p>
+        </div>
+        <div class="input-container">
+          <input type="password" id="password" placeholder="Password">
+          <p class="error-message" id="password-error" ></p>
+        </div>
+        <input type="submit" value="CLAIM YOUR FREE TRIAL">
+        <p class="terms">
+          By clicking the button, you are agreeing to our <span>Terms and Services</span>
+        </p>
+      </form>
+    </div>
+  </section>
+  <br>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://oluwasesi.github.io" target="_blank">Oluwasesi</a>.
+    </p>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>
